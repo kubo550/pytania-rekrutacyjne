@@ -24,7 +24,7 @@
 - Czym są Pure Components i jak je tworzyć // _React.memo_
 - W jaki sposób mozna przekazywać propsy do komponentów
 - Jak działa UseLayoutEffect
-- Czy do <> </> można dodać key // tak
+- Czy do <> </> można dodać key prop // tak
 
 - Jak listować elementy, do czego słuzy key prop, czy można przekazać do niego index
 - Co może sie stać jesli key bedzie losowy

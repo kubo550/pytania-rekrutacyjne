@@ -1,3 +1,11 @@
+# Zadanie praktyczne
+
+- Napisz funkcję, która jako argument przyjmuje dowolną tablicę liczb, a następnie zwraca jej zduplokowaną wersję ([1, 2, 3] => [1, 2, 3, 1, 2, 3].
+
+- Napisz funkcję, która sprawdzi, czy tablica jest posortowana. Jeśli jest posortowana zwróć `true`.
+- Napisz funkcję, która przyjmuję dowolną liczbę naturalną i zwraca tablicę kolejnych liczb z ciągu Fibbonacciego mniejszych niż ta liczba.
+- Napisz funkcję przyjmującą dowolną liczbę naturalną i zwracającą silnię tej liczby. Zadanie rozwiąż zarówno iteracyjnie, jak i rekurencyjnie.
+
 # przykłady kodu
 
 1. konwersja kodu
