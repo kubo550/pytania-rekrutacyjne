@@ -6,4 +6,4 @@ Pytania rekrutacyjne z dziedin **JavaScript**, **React**, **Node.js**, **CSS**, 
 
 ## About
 
-Last update: _12.08.2021_
+Last update: _14.08.2021_
