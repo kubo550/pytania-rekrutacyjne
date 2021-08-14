@@ -54,15 +54,14 @@ setTimeout(() => console.log(i), 1000)
 <details>
 <summary> Jak działa metoda <code>reduce()</code>? Jakie argumenty przyjmuje ta metoda oraz przekazany do niej callback? </summary> 
 <ul style="background-color: rgba(214, 235, 202, 1);">
-<li>b
-    
+<li>
+    todo
 </li>
 </ul>
 </details>
 
 <details>
 <summary> Wymień różnice pomiędzy <code>Cookies</code>, <code>Local Storage</code> i <code>Session Storage</code> </summary>
-
 | x                      | Cookies               | Local Storage | Session Storage    |
 | ---------------------- | --------------------- | ------------- | ------------------ |
 | **Max rozmiar**        | 4kb                   | 10mb          | 5mb                |
@@ -71,27 +70,40 @@ setTimeout(() => console.log(i), 1000)
 | **Żywotność**          | do ustawienia         | nigdy         | do zamknięcia okna |
 | **Lokalizacja**        | przeglądarka i server | przegladarka  | przegladarka       |
 | **Wysyłany w request** | tak                   | nie           | nie                |
-
 </details>
 
 <details>
 <summary> Opisz różnicę pomiędzy kompozycją a dziedziczeniem uwzględniając wady i zalety każdego z tych podejść. </summary> 
 <ul style="background-color: rgba(214, 235, 202, 1);">
-<li> </li>
+<li> <a href="https://www.youtube.com/watch?v=E_BRt_fqaeA"> youtube </li>
 </ul>
 </details>
 
 <details>
 <summary> Wymień kilka wzorców pozwalających na tworzenie obiektów. </summary> 
 <ul style="background-color: rgba(214, 235, 202, 1);">
-<li> </li>
+<li> Poprzez zwykle <code>const obj = {}</code>  </li>
+<li> Za pomocą klas <code> const obj = new Obj() </code> </li>
+<li> Używając fabryk <code>factory function</code>
+    <pre>
+    <code>
+    const list = () => {
+        const items = [];
+        return {
+            addItem = (item) => items.push(item),
+            showItems = () => items
+        } 
+    }
+    </code>
+    </pre>
+ </li>
 </ul>
 </details>
 
 <details>
 <summary> Na czym polega bąbelkowanie (ang. bubbling) oraz propagacja zdarzeń? </summary> 
 <ul style="background-color: rgba(214, 235, 202, 1);">
-<li> </li>
+<li> todo </li>
 </ul>
 </details>
 
@@ -112,43 +124,47 @@ try {
 }
 </code>
 </pre>
-
 </li>
-</ul>
-</details>
-
-<details>
-<summary> Czym jest `Promise` i w jaki sposób tworzymy nowe obiekty tego typu? </summary> 
-<ul style="background-color: rgba(214, 235, 202, 1);">
-<li> </li>
 </ul>
 </details>
 
 <details>
 <summary> Czym jest `Symbol`? </summary> 
 <ul style="background-color: rgba(214, 235, 202, 1);">
-<li> </li>
+<li>todo </li>
 </ul>
 </details>
 
 <details>
 <summary> Na czym polega mechanizm koercji w języku JavaScript? </summary> 
 <ul style="background-color: rgba(214, 235, 202, 1);">
-<li> </li>
+<li>todo </li>
 </ul>
 </details>
 
 <details>
 <summary> Wymień różnice między `axios` a `fetch`. </summary> 
 <ul style="background-color: rgba(214, 235, 202, 1);">
-<li> </li>
+<li>todo </li>
 </ul>
 </details>
 
 <details>
 <summary> Co to jest domknięcie? Podać przykład kodu. </summary> 
 <ul style="background-color: rgba(214, 235, 202, 1);">
-<li> </li>
+<li> Closure jest wtedy, kiedy mamy dostęp do zmiennej poza jej obecnym zakresem</li>
+<li> <pre> <code>
+const points = () => {
+    let score = 0;
+
+    return {
+        getScore:() => score,
+        addScore: (scores) => score += scores
+    }
+
+}
+</code> </pre> </li>
+
 </ul>
 </details>
 
@@ -162,14 +178,17 @@ try {
 <details>
 <summary> W jaki sposób możemy zmienić kontekst wywołania funkcji? </summary> 
 <ul style="background-color: rgba(214, 235, 202, 1);">
-<li> </li>
+<li> bind(this) - zwraca funkcję z nowym kontekstem </li>
+<li> call() - wywołuje funkcje z nowym kontekstem, od apply rózni się tym ze tu oarametry do funkcji przekazuje się po przecinku a nie w tablicy </li>
+<li> appy() - wywołuje funkcje z nowym kontekstem, parametry funkcji są przekazywane w tablicy </li>
 </ul>
 </details>
 
 <details>
 <summary> Jakie znasz sposoby optymalizacji wydajności stron internetowych? </summary> 
 <ul style="background-color: rgba(214, 235, 202, 1);">
-<li> </li>
+<li> Używanie Server Side Rendering (Next.js, vuex) </li>
+<li> Code spliting np. lazy load  - zmiejsza rozmiar początkowego bundle'a dzieki czemu strona ładuje się szybciej [todo link]() </li>
 </ul>
 </details>
 
@@ -211,7 +230,7 @@ try {
 <details>
 <summary> Czy w JS'ie występuje dziedziczenie? </summary> 
 <ul style="background-color: rgba(214, 235, 202, 1);">
-<li> </li>
+<li> tak np. <code> class App extends React.Component {} </code> </li>
 </ul>
 </details>
 
