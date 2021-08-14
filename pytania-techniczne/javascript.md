@@ -75,7 +75,7 @@ setTimeout(() => console.log(i), 1000)
 <details>
 <summary> Opisz różnicę pomiędzy kompozycją a dziedziczeniem uwzględniając wady i zalety każdego z tych podejść. </summary> 
 <ul style="background-color: rgba(214, 235, 202, 1);">
-<li> <a href="https://www.youtube.com/watch?v=E_BRt_fqaeA"> youtube </li>
+<li> <a href="https://www.youtube.com/watch?v=E_BRt_fqaeA"> youtube </a> </li>
 </ul>
 </details>
 
